@@ -9,7 +9,6 @@
 * 우리가 제일 많이 하는 일중에 하나
 * 모두가 아는 이야기들
 * 하지만 정말 잘 하고 있을까?
-* 그룹홈 개편 P/R
 * 많은 시간을 투자하고 있는만큼 적극적인 Code Review를 통해 최대 케미를 얻을 수 있도록 한다.
 
 ##Code Review를 왜 하는가?
@@ -41,6 +40,7 @@
 
 >Moderator, Reader, Designer/Coder, Tester로 구성된다.
 
+* ![Code Inspection](https://github.com/rainris/RRSArticles/blob/master/Images/CodeReview/Fagan_Inspection_Simple_flow.jpg)
 * Planning
   * Code Inspection에 대한 계획을 수립한다.
   * 기간, 대상, 종료조건등을 설정
@@ -200,6 +200,7 @@
 * Extra Space는 모두 제거하는게 좋다.
   * 바꾸지 않은 경우에도 바뀌었다고 나올 수 있다.
   * Xcode의 경우 White Space Trim을 켜두면 불필요한 라인 커밋을 줄일 수 있다.
+  * ![Remove Extra Space in Xcode](https://github.com/rainris/RRSArticles/blob/master/Images/CodeReview/스샷%2024.png)
 * 상의없는 코드재작성은 하지 않는다. (코드수정과는 다르다.)
   * 코드수정과 코드재작성은 다르다.
 * 리뷰받고싶은 포인트에 미리 코멘트를 작성하는 것은 좋은 습관이다.
